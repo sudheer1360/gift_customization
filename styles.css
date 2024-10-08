@@ -1,0 +1,69 @@
+/* Custom Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f5;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #343a40;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('https://via.placeholder.com/1920x800'); /* Replace with actual image */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+/* Call to Action Button */
+.cta-btn {
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    border-radius: 30px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-btn:hover {
+    background-color: #ffa500;
+    color: white;
+}
+
+/* Featured Gifts Section */
+.featured-gifts img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* How It Works Section */
+.how-it-works {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+}
+
+/* Testimonials Section */
+.card {
+    margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer a {
+    color: #f8f9fa;
+    text-decoration: none;
+}
